@@ -1,7 +1,13 @@
+import Features from "@components/features";
+import Footer from "@components/footer";
+import Header from "@components/header";
+
 export default function App() {
   return (
-    <header className="text-blue-600 font-semibold">
-      text
-    </header>
+    <div className="overflow-hidden pt-4">
+      <Header />
+      <Features />
+      <Footer />
+    </div>
   )
 }
